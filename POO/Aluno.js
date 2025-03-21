@@ -1,6 +1,6 @@
 class Aluno{
     constructor(nome){
-        nome = this.nome
+        this.nome = nome
     }
 
     mostrarNome(){

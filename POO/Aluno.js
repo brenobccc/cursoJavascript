@@ -1,5 +1,5 @@
 class Aluno{
-    constructor(nome, disciplina){
+    constructor(nome){
         nome = this.nome
     }
 
@@ -7,12 +7,9 @@ class Aluno{
         console.log(this.nome)
     }
 
-    mostrarDisciplina(){
-        console.log(this.disciplina)
-    }
 }
 
 //criando objetos
 // variavel = new Classe(atributos...)
 
-aluno01 = new Aluno('Breno','Redes')
+aluno01 = new Aluno('Breno')
